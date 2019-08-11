@@ -23,6 +23,7 @@ const Segment3 = () => {
                     horizontal
                     style={{ margin: '3em 0em', textTransform: 'uppercase' }}
                     >
+                        {/*                       eslint-disable-next-line */}
                     <a href='#'>Case Studies</a>
                     </Divider>
                     <Header as='h3' style={{ fontSize: '2em' }}>

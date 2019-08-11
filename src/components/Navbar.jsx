@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Menu, Responsive, Button } from 'semantic-ui-react'
+import { Menu, Button } from 'semantic-ui-react'
 
 export default class Navbar extends Component {
   state = { activeItem: 'Home' }
@@ -19,7 +19,7 @@ export default class Navbar extends Component {
     return (
       <div>
         
-        <Responsive as={Menu}  borderless size="massive" pointing inverted secondary style={divStyle} >
+        <Menu borderless size="massive"  pointing inverted secondary style={divStyle} >
           <Menu.Item name='Home' active={activeItem === 'Home'} onClick={this.handleItemClick} />
           <Menu.Item
             name='About us'
@@ -31,7 +31,7 @@ export default class Navbar extends Component {
                 <Button size='big' basic inverted color='white'><strong> Contact us</strong></Button>
             </Menu.Menu>
          
-        </Responsive>
+        </Menu>
         
 
       </div>

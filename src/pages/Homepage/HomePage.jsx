@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomePage.css';
-import code from '../../media/code.mov';
+// import code from '../../media/code.mov';
 import { Button, Container } from 'semantic-ui-react';
 import Segment1 from '../../components/Segment1';
 import Segment2 from './../../components/Segment2';
@@ -12,7 +12,9 @@ const HomePage = () => {
         <div>
             <header className="v-header container">
                 <div className="fullscreen-video-wrap">
-                    <video src={code} autoPlay="true" loop="true" muted></video>
+                    {/* <video src={code} autoPlay="true" loop="true" muted></video> */}
+                    {/*                       eslint-disable-next-line */}
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AxjWsvCtKrc?autoplay=1&mute=1&controls=0&disablekb=1&loop=1&playlist=AxjWsvCtKrc" frameborder="0" ></iframe>
                 </div>
                 <div className="header-overlay"></div>
                 <div className="header-content text-md-center">

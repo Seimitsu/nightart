@@ -30,6 +30,7 @@ const Segment4 = () => {
                         <Header as='h4' inverted>
                             Footer Header
                         </Header>
+{/*                       eslint-disable-next-line */}
                         <span>
                             Made with ❤️ by Yasser Fahmaoui
                         </span>
