@@ -4,7 +4,7 @@ import { Segment, Container, List, Grid, Header } from 'semantic-ui-react';
 const Segment4 = () => {
     return (
         <div>
-            <Segment inverted vertical style={{ padding: '5em 0em' }}>
+            <Segment inverted vertical style={{ padding: '2em 0em' }}>
                 <Container>
                     <Grid divided inverted stackable>
                     <Grid.Row>
@@ -27,11 +27,8 @@ const Segment4 = () => {
                         </List>
                         </Grid.Column>
                         <Grid.Column width={7}>
-                        <Header as='h4' inverted>
-                            Footer Header
-                        </Header>
 {/*                       eslint-disable-next-line */}
-                        <span>
+                        <span style={{textAlign: 'center'}}>
                             Made with ❤️ by Yasser Fahmaoui
                         </span>
                         </Grid.Column>

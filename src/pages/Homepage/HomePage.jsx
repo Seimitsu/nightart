@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomePage.css';
+import ScrollAnimation from 'react-animate-on-scroll';
 // import code from '../../media/code.mov';
 import { Button, Container } from 'semantic-ui-react';
 import Segment1 from '../../components/Segment1';
@@ -24,9 +25,15 @@ const HomePage = () => {
                 </div>
             </header>
             <Container>
+
+            <ScrollAnimation animateIn="fadeIn">
                 <Segment1 />
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
                 <Segment2 />
+            </ScrollAnimation><ScrollAnimation animateIn="fadeIn" >
                 <Segment3 />
+            </ScrollAnimation>
                 
 
             </Container>
